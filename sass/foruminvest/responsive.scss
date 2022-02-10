@@ -319,7 +319,7 @@
   }
 
   #contact_header {
-    marign-top: 50px;
+    margin-top: 50px;
 
     .col_left {
       .image {
@@ -342,6 +342,14 @@
 
   .hamburger {
     margin-right: 25px;
+  }
+
+  #homepage_header {
+    .header_slider {
+      img {
+        height: calc(68vh - 144px);
+      }
+    }
   }
 
   #homepage_header {

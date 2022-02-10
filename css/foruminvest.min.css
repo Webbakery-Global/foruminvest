@@ -6848,7 +6848,7 @@ p, li, a {
   }
 
   #contact_header {
-    marign-top: 50px;
+    margin-top: 50px;
   }
   #contact_header .col_left .image {
     height: 350px;
@@ -6864,6 +6864,10 @@ p, li, a {
 @media only screen and (max-width: 650px) {
   .hamburger {
     margin-right: 25px;
+  }
+
+  #homepage_header .header_slider img {
+    height: calc(68vh - 144px);
   }
 
   #homepage_header .words {
@@ -25145,7 +25149,7 @@ footer #footer_menu ul li a:hover::before {
   }
 
   #contact_header {
-    marign-top: 50px;
+    margin-top: 50px;
   }
   #contact_header .col_left .image {
     height: 350px;
@@ -25161,6 +25165,10 @@ footer #footer_menu ul li a:hover::before {
 @media only screen and (max-width: 650px) {
   .hamburger {
     margin-right: 25px;
+  }
+
+  #homepage_header .header_slider img {
+    height: calc(68vh - 144px);
   }
 
   #homepage_header .words {
