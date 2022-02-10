@@ -17,6 +17,8 @@ $(document).ready(function () {
 
     $(".language_switcher").click(function () {
         $(".languages").toggleClass("active");
+        $(".hamburgerTop, .hamburgerMiddle, .hamburgerBottom").removeClass("open");
+        $("#navbarNavDropdown").removeClass("open");
     });
 
     $(".privacy").click(function () {
