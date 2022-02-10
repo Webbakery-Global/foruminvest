@@ -9,7 +9,8 @@
 
 // Exit if accessed directly.
 defined('ABSPATH') || exit;
-
+global $post;
+$page_slug = $post->post_name;
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> lang="nl">
@@ -130,9 +131,9 @@ defined('ABSPATH') || exit;
                     </svg>
 
                     <ul class="languages">
-                        <li class="english"><a href="<?php echo get_site_url();?>/en">EN</a></li>
-                        <li class="italian"><a href="<?php echo get_site_url();?>/it">IT</a></li>
-                        <li class="nederlands"><a href="<?php echo get_site_url();?>/">NL</a></li>
+                        <li class="english"><a href="<?php echo get_site_url();?>/en/<?= $page_slug ?>">EN</a></li>
+                        <li class="italian"><a href="<?php echo get_site_url();?>/it/<?= $page_slug ?>">IT</a></li>
+                        <li class="nederlands"><a href="<?php echo get_site_url();?>/<?= $page_slug ?>">NL</a></li>
                     </ul>
                 </div>
 
