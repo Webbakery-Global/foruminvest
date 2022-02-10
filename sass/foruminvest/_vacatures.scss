@@ -1,0 +1,112 @@
+#single_vacature_header {
+  height: 440px;
+  background-size: cover;
+  background-position: center;
+  width: 1441px;
+  margin: 75px auto 0 auto;
+
+  @include media-breakpoint-lg() {
+    height: ratio-vw(440px);
+    width: ratio-vw(1441px);
+    margin: ratio-vw(75px) auto 0 auto;
+  }
+
+}
+
+#vacature_content {
+  margin-top: 50px;
+
+  .date {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 17px;
+    color: $brown;
+  }
+
+  .title {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 52px;
+    color: $blue;
+
+    @include media-breakpoint-lg() {
+      font-size: ratio-vw(50px);
+      line-height: ratio-vw(52px);
+    }
+  }
+
+  p {
+    color: $gray;
+  }
+
+  .solliciteren {
+    color: $blue;
+    margin: 25px 0;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .vacature_form {
+    max-height: 0;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+
+    &.active {
+      max-height: 100vh;
+    }
+  }
+}
+
+form {
+  .wpforms-field-container {
+    label {
+      font-family: $primary !important;
+    }
+
+
+    input, textarea {
+      border: 1px solid $blue !important;
+      min-height: 47px;
+      font-family: $primary !important;
+    }
+
+    .wpforms-uploader {
+      border: 1px dashed $blue !important;
+    }
+
+  }
+
+  .wpforms-submit {
+    background: $trans !important;
+    border: 2px solid $blue !important;
+    color: $blue !important;
+    font-weight: 700 !important;
+    padding: 15px 30px !important;
+    transition: all .3s ease-in-out !important;
+    width: max-content !important;
+    font-family: $primary !important;
+    display: flex !important;
+    align-items: center !important;
+    font-size: 16px !important;
+    letter-spacing: 0 !important;
+    line-height: 26px !important;
+    text-transform: initial !important;
+    float: right !important;
+
+    @include media-breakpoint-lg() {
+      padding: ratio-vw(15px) ratio-vw(30px);
+      font-size: ratio-vw(16px);
+      line-height: ratio-vw(26px);
+    }
+
+    &:hover {
+      background: $blue !important;
+      color: $white !important;
+    }
+  }
+}
+

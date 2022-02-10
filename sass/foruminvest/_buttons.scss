@@ -1,0 +1,31 @@
+.btn {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 15px 30px;
+    transition: all .3s ease-in-out;
+    width: max-content;
+    font-family: $primary;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 26px;
+    text-transform: initial;
+
+    @include media-breakpoint-lg() {
+        padding: ratio-vw(15px) ratio-vw(30px);
+        font-size: ratio-vw(16px);
+        line-height: ratio-vw(26px);
+    }
+}
+
+.btn_trans_blue {
+    border: 2px solid $blue;
+    color: $blue;
+    background: $trans;
+
+    &:hover {
+        background: $blue;
+        color: $white;
+    }
+}

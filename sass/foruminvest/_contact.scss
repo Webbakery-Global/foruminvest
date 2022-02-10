@@ -1,0 +1,43 @@
+#contact_header {
+  margin-top: 75px;
+
+  .col_left {
+    .image {
+      height: 500px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .col_right {
+    .title {
+      margin-top: 35px;
+    }
+
+    .details {
+      color: $gray;
+
+      .subtitle {
+        margin: 35px 0 15px 0;
+      }
+
+      p {
+        margin-bottom: 5px;
+      }
+
+      .item {
+        width: 118px;
+        font-weight: 700;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+#contact_content {
+  margin-top: 50px;
+
+  .title {
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,121 @@
+#news {
+  padding-top: 75px;
+
+
+  .news_post {
+    border: 1px solid rgba(41, 52, 108, 0.5);
+
+    .col_left {
+      .thumbnail {
+        width: 100%;
+        object-fit: cover;
+        height: 320px;
+
+      }
+    }
+
+    .col_right {
+      .content {
+        padding: 50px 30px 75px 30px;
+
+        @include media-breakpoint-lg() {
+          padding: ratio-vw(50px) ratio-vw(30px) ratio-vw(75px) ratio-vw(30px);
+        }
+
+        .date {
+          font-size: 12px;
+          font-weight: 500;
+          letter-spacing: 1px;
+          line-height: 17px;
+          color: $brown;
+        }
+
+        .title {
+          font-size: 26px;
+          font-weight: 400;
+          letter-spacing: 0;
+          line-height: 38px;
+          color: $blue;
+          margin-bottom: 15px;
+          transition: all .3s ease-in-out;
+        }
+
+        .arrow {
+          position: absolute;
+          bottom: 25px;
+          right: 25px;
+          transition: all .3s ease-in-out;
+        }
+
+        .content {
+          padding: 0;
+          color: $gray;
+          font-size: 13px;
+          font-weight: 400;
+          letter-spacing: 0;
+          line-height: 26px;
+        }
+
+        &:hover {
+
+          .title {
+            color: $brown;
+          }
+
+          .arrow {
+            #Rectangle {
+              fill: $brown;
+            }
+            #arrow {
+              fill: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#single_news_header {
+  height: 440px;
+  background-size: cover;
+  background-position: center;
+  width: 1441px;
+  margin: 75px auto 0 auto;
+  max-width: 100%;
+
+  @include media-breakpoint-lg() {
+    height: ratio-vw(440px);
+    margin: ratio-vw(75px) auto 0 auto;
+  }
+}
+
+#news_intro {
+  .white_shadow_box {
+    margin: -100px 0 50px 0;
+    background: $white;
+    padding: 50px 35px;
+    box-shadow: rgba(149, 157, 165, .20) 0 8px 24px;
+
+    .date {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 17px;
+      color: $brown;
+    }
+
+    .title {
+      font-size: 50px;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 52px;
+      color: $blue;
+
+      @include media-breakpoint-lg() {
+        font-size: ratio-vw(50px);
+        line-height: ratio-vw(52px);
+      }
+    }
+  }
+}

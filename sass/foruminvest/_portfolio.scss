@@ -1,0 +1,154 @@
+.portfolio_items {
+  .portfolio_item {
+    padding: 55px;
+
+    a {
+      text-decoration: none;
+    }
+
+    .block {
+      position: relative;
+
+      .img_block {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .category {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        background: $brown;
+        border-radius: 27px;
+        padding: 10px 15px;
+        color: $white;
+        font-family: $secondary;
+        line-height: 14px;
+        font-size: 16px;
+      }
+
+      .portfolio_img {
+        width: 100%;
+        height: 581px;
+        object-fit: cover;
+        transition: all .3s ease-in-out;
+
+      }
+
+      .title {
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: $secondary;
+        font-weight: 500;
+        color: $black;
+      }
+
+      .content {
+        p {
+          margin-bottom: 0;
+          color: $black;
+        }
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    &:nth-child(1) {
+      width: 33.333%;
+      border-right: 1px solid $black;
+      border-bottom: 1px solid $black;
+    }
+
+    &:nth-child(2) {
+      width: 66.66667%;
+      border-bottom: 1px solid $black;
+    }
+
+    &:nth-child(3) {
+      width: 66.66667%;
+      border-right: 1px solid $black;
+      border-bottom: 1px solid $black;
+    }
+
+    &:nth-child(4) {
+      width: 33.333%;
+      border-bottom: 1px solid $black;
+    }
+  }
+}
+
+#header.portfolio_category {
+  .col_right {
+    background: $black;
+    padding: 50px 100px;
+
+    .content {
+      max-width: 500px;
+      color: $white;
+    }
+  }
+}
+
+.single-portfolio {
+  .logo {
+    display: none;
+  }
+}
+
+#header.single_portfolio {
+  .col_left {
+    border-right: 1px solid $black;
+    border-bottom: 1px solid $black;
+  }
+
+  .col_right {
+    padding: 50px 100px;
+    position: fixed;
+    right: 0;
+
+    .content {
+      h1 {
+        font-family: $secondary;
+        font-weight: 500;
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+#content.single_portfolio {
+  .col_left {
+    border-right: 1px solid $black;
+    padding: 75px;
+    border-bottom: 1px solid $black;
+
+
+    .portfolio_images {
+      margin-bottom: -75px;
+      margin-right: -37.50px;
+      margin-left: -37.50px;
+
+      .portfolio_image {
+        margin-bottom: 75px;
+      }
+
+      .full_image, .half_image {
+        padding: 0 37.50px;
+
+        img {
+          width: 100%;
+          height: 580px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  .col_right {
+    border-bottom: 1px solid $black;
+  }
+}
