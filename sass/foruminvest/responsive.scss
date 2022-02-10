@@ -329,6 +329,30 @@
     }
   }
 
+  #single_news_header {
+    margin-top: 0;
+    height: 350px;
+  }
+
+  #news_intro {
+    .white_shadow_box {
+      padding: 0;
+      margin: 25px 0 50px 0;
+      box-shadow: unset;
+
+      .title {
+        font-size: 28px;
+        line-height: 32px;
+      }
+    }
+  }
+
+  #news_content {
+    .img_bottom {
+      margin-bottom: 50px;
+    }
+  }
+
   #contact_header {
     margin-top: 50px;
 
@@ -338,6 +362,8 @@
       }
     }
   }
+
+
 
 
   footer {
