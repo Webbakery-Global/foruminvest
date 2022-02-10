@@ -8,7 +8,6 @@ html {
 
 body, #page {
   scroll-behavior: smooth;
-  overflow: hidden;
   overflow-x: hidden;
 }
 
@@ -123,12 +122,12 @@ p, li, a {
   .header_slider {
 
     img {
-      height: calc(88vh - 114px);
+      height: calc(91vh - 110px);
       background-attachment: fixed;
       object-fit: cover;
 
       @include media-breakpoint-lg() {
-        height: calc(88vh - #{ratio-vw(114px)});
+        height: calc(91vh - #{ratio-vw(110px)});
       }
     }
   }

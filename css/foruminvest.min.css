@@ -5896,7 +5896,6 @@ html {
 
 body, #page {
   scroll-behavior: smooth;
-  overflow: hidden;
   overflow-x: hidden;
 }
 
@@ -5991,14 +5990,14 @@ p, li, a {
 }
 
 #homepage_header .header_slider img {
-  height: calc(88vh - 114px);
+  height: calc(91vh - 110px);
   background-attachment: fixed;
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #homepage_header .header_slider img {
-    height: calc(88vh - 6.3333333333vw);
+    height: calc(91vh - 6.1111111111vw);
   }
 }
 #homepage_header .words {
