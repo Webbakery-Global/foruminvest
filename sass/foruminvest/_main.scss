@@ -127,7 +127,7 @@ p, li, a {
       object-fit: cover;
 
       @include media-breakpoint-lg() {
-        height: calc(91vh - #{ratio-vw(110px)});
+        height: calc(87vh - #{ratio-vw(110px)});
       }
     }
   }
