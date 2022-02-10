@@ -22,6 +22,7 @@
     z-index: 9999;
     position: relative;
     margin-left: 25px;
+    margin-top: 1px;
   }
 
   .hamburgerTop,
@@ -138,6 +139,7 @@
     }
 
     &.sticky {
+
       #navbarNavDropdown {
         top: 49px;
 
@@ -152,9 +154,18 @@
           }
         }
       }
+      .language_switcher {
+        padding: 20px 0;
+
+
+      }
     }
   }
   .language_switcher {
+    svg {
+      margin-top: 9px;
+    }
+
     .languages {
       left: -75px;
       z-index: 100;

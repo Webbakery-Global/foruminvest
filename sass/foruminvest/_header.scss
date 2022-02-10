@@ -15,10 +15,10 @@
       #main-menu {
         .menu-item {
           .nav-link {
-            padding: 15px 20px;
+            padding: 30px 20px;
 
             @include media-breakpoint-lg() {
-              padding: ratio-vw(15px) ratio-vw(20px);
+              padding: ratio-vw(30px) ratio-vw(20px);
             }
           }
         }
@@ -92,6 +92,11 @@
           border-color: $blue;
         }
       }
+    }
+
+    &.active {
+      transform: scaleY(1) translateZ(0);
+      opacity: 1;
     }
 
   }

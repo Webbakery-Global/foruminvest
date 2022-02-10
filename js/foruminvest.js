@@ -4,6 +4,7 @@ $(document).ready(function () {
         $("#navbarNavDropdown").toggleClass("open");
         $(".nav-link, .dropdown-item, .menu_info").toggleClass("fade_in");
         $(".top_menu").toggleClass("black");
+        $(".languages").removeClass("active");
     });
 
     $(".nav-link, .dropdown-item, .navbar-brand, .menu_button.open").click(function () {
@@ -14,8 +15,8 @@ $(document).ready(function () {
         $(".top_menu").removeClass("black");
     });
 
-    $(".all_domains").click(function () {
-        $(".domains").toggleClass("active");
+    $(".language_switcher").click(function () {
+        $(".languages").toggleClass("active");
     });
 
     $(".privacy").click(function () {

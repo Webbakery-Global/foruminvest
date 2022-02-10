@@ -6618,6 +6618,7 @@ p, li, a {
     z-index: 9999;
     position: relative;
     margin-left: 25px;
+    margin-top: 1px;
   }
 
   .hamburgerTop,
@@ -6725,7 +6726,13 @@ p, li, a {
     padding: 0 0 5px 0;
     margin: 15px 0;
   }
+  #wrapper-navbar.sticky .language_switcher {
+    padding: 20px 0;
+  }
 
+  .language_switcher svg {
+    margin-top: 9px;
+  }
   .language_switcher .languages {
     left: -75px;
     z-index: 100;
@@ -6885,11 +6892,11 @@ p, li, a {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
 }
 #wrapper-navbar.sticky #navbarNavDropdown #main-menu .menu-item .nav-link {
-  padding: 15px 20px;
+  padding: 30px 20px;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #wrapper-navbar.sticky #navbarNavDropdown #main-menu .menu-item .nav-link {
-    padding: 0.8333333333vw 1.1111111111vw;
+    padding: 1.6666666667vw 1.1111111111vw;
   }
 }
 #wrapper-navbar.sticky .language_switcher {
@@ -6954,6 +6961,10 @@ p, li, a {
 }
 .language_switcher .languages li a:hover {
   border-color: #29346C;
+}
+.language_switcher .languages.active {
+  transform: scaleY(1) translateZ(0);
+  opacity: 1;
 }
 .language_switcher:hover .languages {
   transform: scaleY(1) translateZ(0);
@@ -24919,6 +24930,7 @@ footer #footer_menu ul li a:hover::before {
     z-index: 9999;
     position: relative;
     margin-left: 25px;
+    margin-top: 1px;
   }
 
   .hamburgerTop,
@@ -25026,7 +25038,13 @@ footer #footer_menu ul li a:hover::before {
     padding: 0 0 5px 0;
     margin: 15px 0;
   }
+  #wrapper-navbar.sticky .language_switcher {
+    padding: 20px 0;
+  }
 
+  .language_switcher svg {
+    margin-top: 9px;
+  }
   .language_switcher .languages {
     left: -75px;
     z-index: 100;
