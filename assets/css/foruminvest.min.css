@@ -6635,6 +6635,10 @@ p, li, a {
     position: relative;
   }
 
+  .header_container {
+    width: 100%;
+  }
+
   .hamburger {
     width: 30px;
     height: 30px;
@@ -25018,6 +25022,10 @@ footer #footer_menu ul li.current-menu-item .nav-link::before {
   body {
     max-width: 100%;
     position: relative;
+  }
+
+  .header_container {
+    width: 100%;
   }
 
   .hamburger {
