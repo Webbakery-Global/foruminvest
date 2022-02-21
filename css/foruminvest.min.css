@@ -7588,7 +7588,7 @@ p, li, a {
 #cta::before {
   content: "";
   background: rgba(41, 52, 108, 0.04);
-  width: 1440px;
+  width: 3000px;
   position: absolute;
   height: 100%;
   top: 0;
@@ -7597,7 +7597,7 @@ p, li, a {
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #cta::before {
-    width: 80vw;
+    width: 166.6666666667vw;
   }
 }
 #cta .content h3 {
