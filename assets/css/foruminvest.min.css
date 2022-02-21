@@ -7983,6 +7983,9 @@ footer #footer_menu ul li a::before {
 footer #footer_menu ul li a:hover::before {
   width: 100%;
 }
+footer #footer_menu ul li.current-menu-item .nav-link::before {
+  width: 100%;
+}
 
 .information .icon_box {
   display: flex;

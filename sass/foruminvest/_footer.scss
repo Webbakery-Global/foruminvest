@@ -63,6 +63,14 @@ footer {
             }
           }
         }
+
+        &.current-menu-item {
+          .nav-link {
+            &::before {
+              width: 100%;
+            }
+          }
+        }
       }
 
     }
