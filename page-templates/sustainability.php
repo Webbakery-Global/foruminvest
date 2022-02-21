@@ -102,7 +102,7 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-6">
-                    <?= !empty($img = get_field('t_image')) ? wp_get_attachment_image($img['id'], 'full', false, ['class' => 'image']) : '' ?>
+                    <?= !empty($img = get_field('t_image')) ? wp_get_attachment_image($img['id'], 'full', false, ['class' => 'image pr-lg-3']) : '' ?>
 
                 </div>
 
