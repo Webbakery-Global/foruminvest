@@ -6253,7 +6253,7 @@ p, li, a {
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #subpage_header .letter {
-    margin: -20.5555555556vw;
+    margin-top: -20.5555555556vw;
     width: 26.9444444444vw;
   }
 }
@@ -7572,7 +7572,6 @@ p, li, a {
   max-width: 550px;
 }
 #project_content .image {
-  height: 450px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -7623,6 +7622,58 @@ p, li, a {
 #cta .content a:hover {
   background: #CD8F80;
   color: #fff;
+}
+
+.portfolio_row #cta {
+  order: 0;
+}
+.portfolio_row .portfolio_item:nth-child(1) {
+  order: 1;
+}
+.portfolio_row .portfolio_item:nth-child(2) {
+  order: 2;
+}
+.portfolio_row .portfolio_item:nth-child(3) {
+  order: 3;
+}
+.portfolio_row .portfolio_item:nth-child(4) {
+  order: 4;
+}
+.portfolio_row .portfolio_item:nth-child(5) {
+  order: 5;
+}
+.portfolio_row .portfolio_item:nth-child(6) {
+  order: 6;
+}
+.portfolio_row .portfolio_item:nth-child(6) {
+  order: 6;
+}
+.portfolio_row .portfolio_item:nth-child(7) {
+  order: 8;
+}
+.portfolio_row .portfolio_item:nth-child(8) {
+  order: 9;
+}
+.portfolio_row .portfolio_item:nth-child(9) {
+  order: 10;
+}
+.portfolio_row .portfolio_item:nth-child(10) {
+  order: 11;
+}
+.portfolio_row .portfolio_item:nth-child(11) {
+  order: 12;
+}
+.portfolio_row .portfolio_item:nth-child(12) {
+  order: 13;
+}
+.portfolio_row .portfolio_item:nth-child(14) {
+  order: 15;
+}
+.portfolio_row .portfolio_item:nth-child(15) {
+  order: 16;
+}
+.portfolio_row .portfolio_item:nth-child(16) {
+  order: 17;
 }
 
 #news {

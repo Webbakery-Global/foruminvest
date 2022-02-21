@@ -5,11 +5,9 @@
                 <div class="content d-flex align-items-center justify-content-center">
                     <h3><?php the_field('titel'); ?></h3>
                     <?php
-                    $urls = get_field( 'button_link' );
-                    if ( $urls ) : ?>
-                        <?php foreach( $urls as $url ) : ?>
+                    $url = get_field( 'button_link' );
+                    if ( $url ) : ?>
                             <a href="<?php echo esc_url( $url ); ?>" ><?php the_field('button_tekst'); ?></a>
-                        <?php endforeach; ?>
                     <?php endif; ?>
                 </div>
             </div>

@@ -382,7 +382,7 @@ p, li, a {
     width: 485px;
 
     @include media-breakpoint-lg() {
-      margin: - ratio-vw(370px);
+      margin-top: - ratio-vw(370px);
       width: ratio-vw(485px);
     }
   }

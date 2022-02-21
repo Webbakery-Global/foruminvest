@@ -31,9 +31,7 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
                 <?= !empty($img = get_field( 'afbeelding_bottom' )) ? wp_get_attachment_image($img['id'], 'full', false, ['class' => 'img_bottom']) : '' ?>
             </div>
             <div class="col-sm-12 col-lg-6">
-                <?php if ( $content = get_field( 'content' ) ) : ?>
-                    <?php echo $content; ?>
-                <?php endif; ?>
+                <?php the_content(); ?>
             </div>
         </div>
     </div>

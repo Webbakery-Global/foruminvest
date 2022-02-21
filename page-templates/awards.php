@@ -20,7 +20,8 @@ get_header();
                 <div class="col-sm-12">
                     <h1 class="title blue mb-5"><?php the_title(); ?></h1>
                 </div>
-
+            </div>
+            <div class="row portfolio_row">
 
                 <?php
                 $count = 0;
@@ -71,15 +72,28 @@ get_header();
                 </div>
             </div>
 
-            <?php
-            if ($count === 5 ) {
-                get_template_part('partials/cta-award', 'content');
-            }
-            ?>
+
 
             <?php $count++; ?>
             <?php wp_reset_postdata(); ?>
             <?php endwhile; ?>
+
+            <div class="col-sm-12" id="cta">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-8 offset-lg-2">
+                            <div class="content d-flex align-items-center justify-content-center">
+                                <h3><?php the_field('titel', 'options'); ?></h3>
+                                <?php
+                                $url = get_field( 'button_link' );
+                                if ( $url ) : ?>
+                                    <a href="<?php echo esc_url( $url ); ?>" ><?php the_field('button_tekst'); ?></a>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
