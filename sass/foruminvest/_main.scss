@@ -615,6 +615,14 @@ p, li, a {
   }
 }
 
+#third {
+  margin-top: 75px;
+
+  @include media-breakpoint-lg() {
+    margin-top: ratio-vw(75px);
+  }
+}
+
 
 #team {
   margin-top: 75px;

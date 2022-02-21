@@ -6469,6 +6469,15 @@ p, li, a {
   }
 }
 
+#third {
+  margin-top: 75px;
+}
+@media (max-width: 1799px) and (min-width: 1024px) {
+  #third {
+    margin-top: 4.1666666667vw;
+  }
+}
+
 #team {
   margin-top: 75px;
 }

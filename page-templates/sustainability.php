@@ -113,7 +113,7 @@ get_header();
                         <?php if ($s_title = get_field('t_title')) : ?>
                             <h2 class="title blue"><?php echo esc_html($s_title); ?></h2>
                         <?php endif; ?>
-                        <?php if ($s_content = get_field('ts_content')) : ?>
+                        <?php if ($s_content = get_field('t_content')) : ?>
                             <?php echo $s_content; ?>
                         <?php endif; ?>
                 </div>
