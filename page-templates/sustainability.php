@@ -98,6 +98,29 @@ get_header();
         </div>
     </section>
 
+    <section id="third">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <?= !empty($img = get_field('t_image')) ? wp_get_attachment_image($img['id'], 'full', false, ['class' => 'image']) : '' ?>
+
+                </div>
+
+                <div class="col-sm-12 col-lg-6">
+                        <?php if ($s_subtitle = get_field('t_subtitle')) : ?>
+                            <p class="subtitle brown"><?php echo esc_html($s_subtitle); ?></p>
+                        <?php endif; ?>
+                        <?php if ($s_title = get_field('t_title')) : ?>
+                            <h2 class="title blue"><?php echo esc_html($s_title); ?></h2>
+                        <?php endif; ?>
+                        <?php if ($s_content = get_field('ts_content')) : ?>
+                            <?php echo $s_content; ?>
+                        <?php endif; ?>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <?php
 get_footer();
 
