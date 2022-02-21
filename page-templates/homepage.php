@@ -14,17 +14,19 @@ get_header();
 ?>
 
     <section id="homepage_header">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="header_slider">
-                    <?php if (have_rows('slider')) : ?>
-                        <?php while (have_rows('slider')) :
-                            the_row(); ?>
-                            <div class="header_slide">
-                                <?= !empty($img = get_sub_field('slide')) ? wp_get_attachment_image($img['id'], 'full', false, ['class' => 'slide_img']) : '' ?>
-                            </div>
-                        <?php endwhile; ?>
-                    <?php endif; ?>
+        <div class="header_container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="header_slider">
+                        <?php if (have_rows('slider')) : ?>
+                            <?php while (have_rows('slider')) :
+                                the_row(); ?>
+                                <div class="header_slide">
+                                    <?= !empty($img = get_sub_field('slide')) ? wp_get_attachment_image($img['id'], 'full', false, ['class' => 'slide_img']) : '' ?>
+                                </div>
+                            <?php endwhile; ?>
+                        <?php endif; ?>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-12">

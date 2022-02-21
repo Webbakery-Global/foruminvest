@@ -5989,6 +5989,16 @@ p, li, a {
   stroke-miterlimit: 10;
 }
 
+#homepage_header .header_container {
+  width: 1441px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media (max-width: 1799px) and (min-width: 1024px) {
+  #homepage_header .header_container {
+    width: 1441px;
+  }
+}
 #homepage_header .header_slider .slick-track {
   display: flex;
   align-items: center;
