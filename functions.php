@@ -4,7 +4,6 @@ if (!defined('ABSPATH')) {
 }
 
 require_once(get_stylesheet_directory() . '/inc/post-types/portfolio.php');
-require_once(get_stylesheet_directory() . '/inc/post-types/team.php');
 require_once(get_stylesheet_directory() . '/inc/post-types/awards.php');
 require_once(get_stylesheet_directory() . '/inc/post-types/vacatures.php');
 

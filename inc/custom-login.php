@@ -4,12 +4,12 @@ function eigen_login_logo()
 { ?>
     <style type="text/css">
         .login {
-            background-image: url(<?php echo get_site_url(); ?>/wp-content/uploads/2021/12/header.jpg);
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dashboard.jpg);
             background-size: cover !important;
             position: relative;
         }
 
-        .login form {
+        #loginform {
             background: rgba(255, 255, 255, 0.8) !important;
         }
 
@@ -23,7 +23,7 @@ function eigen_login_logo()
         }
 
         #login h1 a, .login h1 a {
-            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/rjb-logo-black.svg);
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/dashboard-logo.svg);
             width: 300px;
             height: 50px;
             background-size: contain;
