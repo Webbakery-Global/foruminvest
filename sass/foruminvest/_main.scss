@@ -121,8 +121,14 @@ p, li, a {
 
   .header_slider {
 
+    .slick-track {
+      display: flex;
+      align-items: center;
+    }
+
     img {
       height: calc(91vh - 110px);
+      width: 100%;
       background-attachment: fixed;
       object-fit: cover;
 

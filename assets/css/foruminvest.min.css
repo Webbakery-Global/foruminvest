@@ -5989,8 +5989,13 @@ p, li, a {
   stroke-miterlimit: 10;
 }
 
+#homepage_header .header_slider .slick-track {
+  display: flex;
+  align-items: center;
+}
 #homepage_header .header_slider img {
   height: calc(91vh - 110px);
+  width: 100%;
   background-attachment: fixed;
   -o-object-fit: cover;
      object-fit: cover;

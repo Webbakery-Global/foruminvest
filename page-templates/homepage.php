@@ -20,7 +20,9 @@ get_header();
                     <?php if (have_rows('slider')) : ?>
                         <?php while (have_rows('slider')) :
                             the_row(); ?>
-                            <?= !empty($img = get_sub_field('slide')) ? wp_get_attachment_image($img['id'], 'full', false, ['class' => 'slide_img']) : '' ?>
+                            <div class="header_slide">
+                                <?= !empty($img = get_sub_field('slide')) ? wp_get_attachment_image($img['id'], 'full', false, ['class' => 'slide_img']) : '' ?>
+                            </div>
                         <?php endwhile; ?>
                     <?php endif; ?>
                 </div>
@@ -97,18 +99,18 @@ get_header();
                         </div>
                     </div>
                     <div class="buttons">
-                    <?php
-                    $url = get_field('button_link');
-                    if ($url) : ?>
-                        <a class="btn btn_trans_blue"
-                           href="<?php echo esc_url($url); ?>"><?php the_field('button_tekst'); ?></a>
-                    <?php endif; ?>
-                    <?php
-                    $url = get_field('button_link_2');
-                    if ($url) : ?>
-                        <a class="btn btn_trans_blue"
-                           href="<?php echo esc_url($url); ?>"><?php the_field('button_tekst_2'); ?></a>
-                    <?php endif; ?>
+                        <?php
+                        $url = get_field('button_link');
+                        if ($url) : ?>
+                            <a class="btn btn_trans_blue"
+                               href="<?php echo esc_url($url); ?>"><?php the_field('button_tekst'); ?></a>
+                        <?php endif; ?>
+                        <?php
+                        $url = get_field('button_link_2');
+                        if ($url) : ?>
+                            <a class="btn btn_trans_blue"
+                               href="<?php echo esc_url($url); ?>"><?php the_field('button_tekst_2'); ?></a>
+                        <?php endif; ?>
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-6 offset-lg-1 col_right">
