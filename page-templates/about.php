@@ -117,6 +117,7 @@ get_header();
                     while ($loop->have_posts()) : $loop->the_post(); ?>
                         <div class="team_slide">
                             <?php echo get_the_post_thumbnail(get_the_ID(), 'post_thumbnail', array('class' => 'related_campaign_img')) ?>
+                        </div>
                         <?php wp_reset_postdata(); ?>
                     <?php endwhile; ?>
                 </div>
