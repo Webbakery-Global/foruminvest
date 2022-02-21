@@ -223,11 +223,15 @@ p, li, a {
   }
 
   .info_row {
-    max-width: 600px;
+    max-width: 625px;
     margin-bottom: 25px;
 
     @include media-breakpoint-lg() {
-      max-width: ratio-vw(600px);
+      max-width: ratio-vw(625px);
+    }
+
+    .info_col {
+      padding: 0 5px;
     }
 
     .number {
@@ -249,13 +253,14 @@ p, li, a {
       color: $brown;
       display: block;
       text-align: center;
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 500;
       letter-spacing: 0.67px;
       line-height: 22px;
+      text-transform: uppercase;
 
       @include media-breakpoint-lg() {
-        font-size: ratio-vw(11px);
+        font-size: ratio-vw(12px);
         letter-spacing: ratio-vw(0.67px);
         line-height: ratio-vw(22px);
       }

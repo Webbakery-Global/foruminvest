@@ -106,23 +106,17 @@ get_header();
             <div class="row">
                 <div class="team_slider">
                     <?php
-                    $paged = get_query_var('paged') ? get_query_var('paged') : 1;
-                    $args = array(
-                        'post_type' => 'team',  // Sort post type
-                        'posts_per_page' => -1, // Aantal posts
-                        'order' => 'DESC',
-                    );
-
-                    $loop = new WP_Query($args);
-                    while ($loop->have_posts()) : $loop->the_post(); ?>
-                        <div class="team_slide">
-                            <?php echo get_the_post_thumbnail(get_the_ID(), 'post_thumbnail', array('class' => 'related_campaign_img')) ?>
-                        </div>
-                        <?php wp_reset_postdata(); ?>
-                    <?php endwhile; ?>
+                    $team = get_field('teamleden');
+                    if ($team) : ?>
+                        <?php foreach ($team as $teamlid) : ?>
+                            <div class="team_slide">
+                                <img src="<?php echo esc_url($teamlid['sizes']['large']); ?>"
+                                     alt="<?php echo esc_attr($teamlid['alt']); ?>"/>
+                            </div>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
                 </div>
             </div>
-
         </div>
     </section>
 

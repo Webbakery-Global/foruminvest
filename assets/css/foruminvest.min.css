@@ -6093,13 +6093,16 @@ p, li, a {
   }
 }
 #intro .info_row {
-  max-width: 600px;
+  max-width: 625px;
   margin-bottom: 25px;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #intro .info_row {
-    max-width: 33.3333333333vw;
+    max-width: 34.7222222222vw;
   }
+}
+#intro .info_row .info_col {
+  padding: 0 5px;
 }
 #intro .info_row .number {
   color: #29346C;
@@ -6120,14 +6123,15 @@ p, li, a {
   color: #CD8F80;
   display: block;
   text-align: center;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.67px;
   line-height: 22px;
+  text-transform: uppercase;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #intro .info_row .word {
-    font-size: 0.6111111111vw;
+    font-size: 0.6666666667vw;
     letter-spacing: 0.0372222222vw;
     line-height: 1.2222222222vw;
   }
@@ -7625,7 +7629,7 @@ p, li, a {
 }
 
 .portfolio_row #cta {
-  order: 0;
+  order: 7;
 }
 .portfolio_row .portfolio_item:nth-child(1) {
   order: 1;
