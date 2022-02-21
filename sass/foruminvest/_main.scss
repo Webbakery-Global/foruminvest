@@ -120,13 +120,10 @@ p, li, a {
 #homepage_header {
 
   .header_container {
-    width: 1441px;
+    width: 90vw;
     margin: 0 auto;
     overflow: hidden;
 
-    @include media-breakpoint-lg() {
-      width: calc(1441px);
-    }
   }
 
   .header_slider {
