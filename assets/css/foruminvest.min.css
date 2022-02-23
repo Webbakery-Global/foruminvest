@@ -7457,7 +7457,7 @@ p, li, a {
 }
 #projects .portfolio_item .image_box.award:hover .project_thumbnail_hover {
   opacity: 1;
-  transform: scale(1);
+  transform: scale(1) !important;
 }
 #projects .portfolio_item .box {
   position: relative;
