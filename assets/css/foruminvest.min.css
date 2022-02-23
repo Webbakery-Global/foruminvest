@@ -7709,8 +7709,8 @@ p, li, a {
 .portfolio_row .portfolio_item:nth-child(12) {
   order: 13;
 }
-.portfolio_row .portfolio_item:nth-child(14) {
-  order: 15;
+.portfolio_row .portfolio_item:nth-child(13) {
+  order: 14;
 }
 .portfolio_row .portfolio_item:nth-child(15) {
   order: 16;
