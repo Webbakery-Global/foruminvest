@@ -15,6 +15,28 @@
     position: relative;
   }
 
+  #wrapper-navbar {
+    &.sticky {
+      .language_switcher {
+        .languages {
+          bottom: -157px;
+        }
+      }
+    }
+    .language_switcher {
+      svg {
+        margin-top: 9px;
+      }
+
+      .languages {
+        z-index: 100;
+        bottom: -155px;
+      }
+    }
+  }
+
+
+
   #homepage_header {
     .header_container {
       width: 100%;
@@ -171,16 +193,6 @@
 
 
       }
-    }
-  }
-  .language_switcher {
-    svg {
-      margin-top: 9px;
-    }
-
-    .languages {
-      left: -75px;
-      z-index: 100;
     }
   }
 
@@ -414,6 +426,13 @@
       .word {
 
       }
+    }
+  }
+
+  #vacature_content {
+    .title {
+      font-size: 30px;
+      line-height: 36px;
     }
   }
 }

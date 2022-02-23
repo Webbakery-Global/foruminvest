@@ -18,7 +18,6 @@
       .content {
         margin: 50px 75px 75px 30px;
         overflow: hidden;
-        max-height: 175px;
 
         @include media-breakpoint-lg() {
           margin: ratio-vw(50px) ratio-vw(75px) ratio-vw(75px) ratio-vw(30px);

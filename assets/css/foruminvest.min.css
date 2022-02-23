@@ -6638,6 +6638,17 @@ p, li, a {
     position: relative;
   }
 
+  #wrapper-navbar.sticky .language_switcher .languages {
+    bottom: -157px;
+  }
+  #wrapper-navbar .language_switcher svg {
+    margin-top: 9px;
+  }
+  #wrapper-navbar .language_switcher .languages {
+    z-index: 100;
+    bottom: -155px;
+  }
+
   #homepage_header .header_container {
     width: 100%;
   }
@@ -6761,14 +6772,6 @@ p, li, a {
   }
   #wrapper-navbar.sticky .language_switcher {
     padding: 20px 0;
-  }
-
-  .language_switcher svg {
-    margin-top: 9px;
-  }
-  .language_switcher .languages {
-    left: -75px;
-    z-index: 100;
   }
 
   #homepage_header .words .word {
@@ -6933,6 +6936,10 @@ p, li, a {
 
   #homepage_header .words {
     display: block;
+  }
+  #vacature_content .title {
+    font-size: 30px;
+    line-height: 36px;
   }
 }
 #wrapper-navbar {
@@ -7801,7 +7808,6 @@ p, li, a {
 #news .news_post .col_right .content {
   margin: 50px 75px 75px 30px;
   overflow: hidden;
-  max-height: 175px;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #news .news_post .col_right .content {
@@ -7926,6 +7932,10 @@ p, li, a {
   letter-spacing: 0;
   line-height: 52px;
   color: #29346C;
+  text-transform: lowercase;
+}
+#vacature_content .title::first-letter {
+  text-transform: uppercase;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #vacature_content .title {
@@ -25115,6 +25125,17 @@ footer #footer_menu ul li.current-menu-item .nav-link::before {
     position: relative;
   }
 
+  #wrapper-navbar.sticky .language_switcher .languages {
+    bottom: -157px;
+  }
+  #wrapper-navbar .language_switcher svg {
+    margin-top: 9px;
+  }
+  #wrapper-navbar .language_switcher .languages {
+    z-index: 100;
+    bottom: -155px;
+  }
+
   #homepage_header .header_container {
     width: 100%;
   }
@@ -25238,14 +25259,6 @@ footer #footer_menu ul li.current-menu-item .nav-link::before {
   }
   #wrapper-navbar.sticky .language_switcher {
     padding: 20px 0;
-  }
-
-  .language_switcher svg {
-    margin-top: 9px;
-  }
-  .language_switcher .languages {
-    left: -75px;
-    z-index: 100;
   }
 
   #homepage_header .words .word {
@@ -25410,5 +25423,9 @@ footer #footer_menu ul li.current-menu-item .nav-link::before {
 
   #homepage_header .words {
     display: block;
+  }
+  #vacature_content .title {
+    font-size: 30px;
+    line-height: 36px;
   }
 }

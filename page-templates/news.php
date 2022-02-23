@@ -41,7 +41,7 @@ get_header();
                                     <p class="date"><?php echo get_the_date('d-m-Y'); ?></p>
                                     <h2 class="title"><?php the_title(); ?></h2>
                                     <p class="content">
-                                        <?php echo wp_trim_words(get_the_content(), 40, '...'); ?>
+                                        <?php echo wp_trim_words(get_the_content(), 30, '...'); ?>
                                     </p>
                                     <svg class="arrow" width="49px" height="49px" viewBox="0 0 49 49" version="1.1"
                                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
