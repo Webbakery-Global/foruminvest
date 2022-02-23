@@ -22,7 +22,6 @@
 
         @include media-breakpoint-lg() {
           margin: ratio-vw(50px) ratio-vw(75px) ratio-vw(75px) ratio-vw(30px);
-          max-height: ratio-vw(175px);
         }
 
         .date {
@@ -41,6 +40,11 @@
           color: $blue;
           margin-bottom: 15px;
           transition: all .3s ease-in-out;
+          text-transform: lowercase;
+
+          &::first-letter {
+            text-transform: uppercase;
+          }
         }
 
         .arrow {

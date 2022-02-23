@@ -5999,7 +5999,7 @@ p, li, a {
   align-items: center;
 }
 #homepage_header .header_slider img {
-  height: calc(91vh - 110px);
+  height: calc(89vh - 110px);
   width: 100%;
   background-attachment: fixed;
   -o-object-fit: cover;
@@ -6007,7 +6007,7 @@ p, li, a {
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #homepage_header .header_slider img {
-    height: calc(87vh - 6.1111111111vw);
+    height: calc(89vh - 6.1111111111vw);
   }
 }
 #homepage_header .words {
@@ -6641,6 +6641,9 @@ p, li, a {
   #homepage_header .header_container {
     width: 100%;
   }
+  #homepage_header .header_slider img {
+    height: calc(86vh - 110px);
+  }
 
   .hamburger {
     width: 30px;
@@ -6881,6 +6884,9 @@ p, li, a {
   #news .news_post {
     margin-bottom: 0 !important;
     border: none;
+  }
+  #news .news_post .col_right .content {
+    max-height: unset;
   }
 
   #single_news_header {
@@ -7800,7 +7806,6 @@ p, li, a {
 @media (max-width: 1799px) and (min-width: 1024px) {
   #news .news_post .col_right .content {
     margin: 2.7777777778vw 4.1666666667vw 4.1666666667vw 1.6666666667vw;
-    max-height: 9.7222222222vw;
   }
 }
 #news .news_post .col_right .content .date {
@@ -7818,6 +7823,10 @@ p, li, a {
   color: #29346C;
   margin-bottom: 15px;
   transition: all 0.3s ease-in-out;
+  text-transform: lowercase;
+}
+#news .news_post .col_right .content .title::first-letter {
+  text-transform: uppercase;
 }
 #news .news_post .col_right .content .arrow {
   position: absolute;
@@ -8005,6 +8014,7 @@ form .wpforms-submit:hover {
 }
 #contact_header .col_right .details p {
   margin-bottom: 5px;
+  display: flex;
 }
 #contact_header .col_right .details .item {
   width: 118px;
@@ -25108,6 +25118,9 @@ footer #footer_menu ul li.current-menu-item .nav-link::before {
   #homepage_header .header_container {
     width: 100%;
   }
+  #homepage_header .header_slider img {
+    height: calc(86vh - 110px);
+  }
 
   .hamburger {
     width: 30px;
@@ -25348,6 +25361,9 @@ footer #footer_menu ul li.current-menu-item .nav-link::before {
   #news .news_post {
     margin-bottom: 0 !important;
     border: none;
+  }
+  #news .news_post .col_right .content {
+    max-height: unset;
   }
 
   #single_news_header {

@@ -118,16 +118,13 @@ p, li, a {
 }
 
 #homepage_header {
-
   .header_container {
     width: 90vw;
     margin: 0 auto;
     overflow: hidden;
-
   }
 
   .header_slider {
-
 
     .slick-track {
       display: flex;
@@ -135,13 +132,13 @@ p, li, a {
     }
 
     img {
-      height: calc(91vh - 110px);
+      height: calc(89vh - 110px);
       width: 100%;
       background-attachment: fixed;
       object-fit: cover;
 
       @include media-breakpoint-lg() {
-        height: calc(87vh - #{ratio-vw(110px)});
+        height: calc(89vh - #{ratio-vw(110px)});
       }
     }
   }
