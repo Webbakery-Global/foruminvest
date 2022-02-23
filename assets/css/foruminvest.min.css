@@ -6956,6 +6956,14 @@ p, li, a {
     padding: 0.8333333333vw 0;
   }
 }
+#wrapper-navbar.sticky .language_switcher .languages {
+  bottom: -168px;
+}
+@media (max-width: 1799px) and (min-width: 1024px) {
+  #wrapper-navbar.sticky .language_switcher .languages {
+    bottom: -9.3333333333vw;
+  }
+}
 #wrapper-navbar .navbar .container {
   position: relative;
   justify-content: flex-end;
@@ -6979,7 +6987,7 @@ p, li, a {
 }
 .language_switcher .languages {
   position: absolute;
-  bottom: -153px;
+  bottom: -158px;
   left: -15px;
   overflow: hidden;
   list-style: none;
@@ -6995,7 +7003,7 @@ p, li, a {
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   .language_switcher .languages {
-    bottom: -8.5vw;
+    bottom: -8.7777777778vw;
   }
 }
 .language_switcher .languages li {

@@ -52,7 +52,7 @@ get_header();
                                 <p class="name"><?php the_title(); ?></p>
                                 <p class="city"><?php the_field('prijs'); ?></p>
                             </div>
-                            <svg class="arrow" width="49px" height="49px" viewBox="0 0 49 49" version="1.1"
+                            <svg class="arrow d-none" width="49px" height="49px" viewBox="0 0 49 49" version="1.1"
                                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g id="Forum-invest-project" transform="translate(-452.000000, -623.000000)">

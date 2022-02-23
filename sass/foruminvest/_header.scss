@@ -31,6 +31,14 @@
       @include media-breakpoint-lg() {
         padding: ratio-vw(15px) 0;
       }
+
+      .languages {
+        bottom: - 168px;
+
+        @include media-breakpoint-lg() {
+          bottom: - ratio-vw(168px);
+        }
+      }
     }
   }
 
@@ -60,7 +68,7 @@
 
   .languages {
     position: absolute;
-    bottom: -153px;
+    bottom: -158px;
     left: -15px;
     overflow: hidden;
     list-style: none;
@@ -75,7 +83,7 @@
     box-shadow: rgba(149, 157, 165, .20) 0 8px 24px;
 
     @include media-breakpoint-lg() {
-      bottom: - ratio-vw(153px);
+      bottom: - ratio-vw(158px);
     }
 
     li {
