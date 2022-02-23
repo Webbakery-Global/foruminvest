@@ -7745,6 +7745,21 @@ p, li, a {
 .portfolio_row .portfolio_item:nth-child(25) {
   order: 26;
 }
+.portfolio_row .portfolio_item:nth-child(26) {
+  order: 27;
+}
+.portfolio_row .portfolio_item:nth-child(27) {
+  order: 28;
+}
+.portfolio_row .portfolio_item:nth-child(28) {
+  order: 29;
+}
+.portfolio_row .portfolio_item:nth-child(29) {
+  order: 30;
+}
+.portfolio_row .portfolio_item:nth-child(30) {
+  order: 31;
+}
 
 #news {
   padding-top: 75px;
