@@ -7668,7 +7668,7 @@ p, li, a {
 }
 
 .portfolio_row #cta {
-  order: 7;
+  order: 5;
 }
 .portfolio_row .portfolio_item:nth-child(1) {
   order: 1;
