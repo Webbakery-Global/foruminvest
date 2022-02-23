@@ -45,6 +45,7 @@
           position: absolute;
           top: 0;
           left: 0;
+          transform: scale(1);
         }
 
         .logo {
@@ -59,6 +60,7 @@
         &:hover {
           .project_thumbnail {
             opacity: 0;
+            transform: scale(1);
           }
 
           .logo {
@@ -67,6 +69,7 @@
 
           .project_thumbnail_hover {
             opacity: 1;
+            transform: scale(1);
           }
         }
       }

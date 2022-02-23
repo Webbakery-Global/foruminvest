@@ -7438,6 +7438,7 @@ p, li, a {
   position: absolute;
   top: 0;
   left: 0;
+  transform: scale(1);
 }
 #projects .portfolio_item .image_box.award .logo {
   position: absolute;
@@ -7449,12 +7450,14 @@ p, li, a {
 }
 #projects .portfolio_item .image_box.award:hover .project_thumbnail {
   opacity: 0;
+  transform: scale(1);
 }
 #projects .portfolio_item .image_box.award:hover .logo {
   opacity: 0;
 }
 #projects .portfolio_item .image_box.award:hover .project_thumbnail_hover {
   opacity: 1;
+  transform: scale(1);
 }
 #projects .portfolio_item .box {
   position: relative;
