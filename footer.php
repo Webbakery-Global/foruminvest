@@ -84,10 +84,12 @@
                             <i class="fa-solid fa-location-dot"></i>
                             <span><?php the_field('adres', 'options'); ?></span>
                         </div>
-                        <?php if($linkedin = get_field('linkedin', 'options')) : ?>
-                        <div class="icon_box mt-3">
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        <?php if ($linkedin = get_field('linkedin', 'options')) : ?>
+                            <div class="icon_box mt-3">
+                                <a href="<?php echo $linkedin ?>" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
                         <?php endif; ?>
                     </div>
                     <div class="col-12 col-md-6 mt-3 mt-lg-0">
