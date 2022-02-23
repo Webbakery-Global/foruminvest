@@ -64,7 +64,7 @@ add_filter('show_admin_bar', '__return_false');
 // This theme uses wp_nav_menu() in one location.
 register_nav_menus(
     array(
-        'primary' => esc_html__('Primary', 'cornelis'),
+        'primary' => esc_html__('Primary', 'foruminvest'),
     )
 );
 

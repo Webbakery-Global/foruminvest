@@ -131,7 +131,7 @@ get_header();
             <div class="row">
                 <div class="col-sm-12 col-lg-6">
                     <div class="content">
-                        <p class="subtitle brown text-uppercase"><?php echo __('Omschrijving', 'foruminvest'); ?></p>
+                        <p class="subtitle brown text-uppercase"><?php echo __('Description', 'foruminvest'); ?></p>
                         <?php the_content(); ?>
                     </div>
                 </div>
