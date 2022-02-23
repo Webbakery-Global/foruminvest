@@ -7438,7 +7438,7 @@ p, li, a {
   position: absolute;
   top: 0;
   left: 0;
-  transform: scale(1);
+  transform: scale(1) !important;
 }
 #projects .portfolio_item .image_box.award .logo {
   position: absolute;
