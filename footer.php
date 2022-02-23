@@ -79,9 +79,16 @@
             </div>
             <div class="col-sm-12 col-lg-4 information mt-5 mt-lg-0">
                 <div class="row">
-                    <div class="col-12 col-md-6 icon_box">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <span><?php the_field('adres', 'options'); ?></span>
+                    <div class="col-12 col-md-6">
+                        <div class="icon_box">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span><?php the_field('adres', 'options'); ?></span>
+                        </div>
+                        <?php if($linkedin = get_field('linkedin', 'options')) : ?>
+                        <div class="icon_box mt-3">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <?php endif; ?>
                     </div>
                     <div class="col-12 col-md-6 mt-3 mt-lg-0">
                         <div class="icon_box">
