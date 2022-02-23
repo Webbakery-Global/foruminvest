@@ -59,11 +59,9 @@ get_header();
                                         <div class="js-accordion-item accordion__item">
                                             <div class="accordionButton accordion-header js-accordion-header accordion__caption"><?php the_sub_field('titel'); ?> </div>
                                             <div class="accordionContent accordion-body__contents accordion__content">
-                                                <p>
-                                                    <?php if ($omschrijving = get_sub_field('omschrijving')) : ?>
-                                                        <?php echo $omschrijving; ?>
-                                                    <?php endif; ?>
-                                                </p>
+                                                <?php if ($omschrijving = get_sub_field('omschrijving')) : ?>
+                                                    <?php echo $omschrijving; ?>
+                                                <?php endif; ?>
                                             </div>
                                         </div>
 
@@ -106,7 +104,7 @@ get_header();
             <div class="row">
                 <div class="col-sm-12 mb-3">
                     <?php if ($team_title = get_field('t_title')) : ?>
-                    <h3 class="subtitle brown"><?php echo esc_html($team_title); ?></h3>
+                        <h3 class="subtitle brown"><?php echo esc_html($team_title); ?></h3>
                     <?php endif; ?>
                 </div>
                 <div class="team_slider">
