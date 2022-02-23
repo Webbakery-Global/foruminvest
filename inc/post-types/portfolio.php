@@ -38,7 +38,7 @@ function us_portfolio()
         'labels' => $labels,
         'supports' => array('title', 'thumbnail'),
         'taxonomies' => array('portfolio_category'),
-        'hierarchical' => true,
+        'hierarchical' => false,
         'public' => true,
         'show_ui' => true,
         'show_in_menu' => true,
