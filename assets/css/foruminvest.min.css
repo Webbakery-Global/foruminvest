@@ -6469,12 +6469,12 @@ p, li, a {
 }
 #second .col_right .logos img {
   width: 100%;
-  max-width: 130px;
+  max-width: 100px;
   padding: 5px;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #second .col_right .logos img {
-    max-width: 7.2222222222vw;
+    max-width: 5.5555555556vw;
     padding: 0.2777777778vw;
   }
 }

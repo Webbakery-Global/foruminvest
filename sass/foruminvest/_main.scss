@@ -617,11 +617,11 @@ p, li, a {
 
       img {
         width: 100%;
-        max-width: 130px;
+        max-width: 100px;
         padding: 5px;
 
         @include media-breakpoint-lg() {
-          max-width: ratio-vw(130px);
+          max-width: ratio-vw(100px);
           padding: ratio-vw(5px);
         }
       }
