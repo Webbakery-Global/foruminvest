@@ -522,6 +522,10 @@ p, li, a {
     visibility: hidden;
     max-height: 0;
     padding: 0 15px;
+
+    a {
+      color: $brown;
+    }
   }
 
   &.accordion__item--active {
