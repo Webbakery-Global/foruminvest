@@ -7474,16 +7474,16 @@ p, li, a {
 }
 #projects .portfolio_item .box .name {
   font-size: 26px;
+  line-height: 32px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 38px;
   color: #152238;
   margin-bottom: 6px;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #projects .portfolio_item .box .name {
     font-size: 1.4444444444vw;
-    line-height: 2.1111111111vw;
+    line-height: 1.7777777778vw;
     margin-bottom: 0.3333333333vw;
   }
 }

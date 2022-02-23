@@ -92,15 +92,15 @@
 
       .name {
         font-size: 26px;
+        line-height: 32px;
         font-weight: 400;
         letter-spacing: 0;
-        line-height: 38px;
         color: $darkblue;
         margin-bottom: 6px;
 
         @include media-breakpoint-lg() {
           font-size: ratio-vw(26px);
-          line-height: ratio-vw(38px);
+          line-height: ratio-vw(32px);
           margin-bottom: ratio-vw(6px);
         }
       }

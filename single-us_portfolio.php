@@ -18,43 +18,49 @@ get_header();
                     <p class="project_title"><?php echo __('Project details', 'foruminvest'); ?></p>
 
                     <div class="info">
-                        <?php if ($meters = get_field('vierkante_meters_project')) : ?>
+                        <?php if ($bvo = get_field('bvo')) : ?>
                             <p class="detail">
-                                <span class="detail_title"><?php echo __('Vierkante meters', 'foruminvest'); ?>:</span><span
-                                        class="value"><?= $meters ?></span>
+                                <span class="detail_title"><?php echo __('GLA', 'foruminvest'); ?>:</span><span
+                                        class="value"><?= $bvo ?></span>
                             </p>
                         <?php endif; ?>
-                        <?php if ($apartments = get_field('appartementen_project')) : ?>
+                        <?php if ($apartments = get_field('apartments')) : ?>
                             <p class="detail">
-                                <span class="detail_title"><?php echo __('Appartementen', 'foruminvest'); ?>:</span><span
+                                <span class="detail_title"><?php echo __('Apartements', 'foruminvest'); ?>:</span><span
                                         class="value"><?= $apartments ?></span>
                             </p>
                         <?php endif; ?>
-                        <?php if ($apartments_project = get_field('woningen_project')) : ?>
+                        <?php if ($apartments_project = get_field('grondgebonden_woningen')) : ?>
                             <p class="detail">
-                                <span class="detail_title"><?php echo __('Woningen', 'foruminvest'); ?>:</span><span
+                                <span class="detail_title"><?php echo __('Residences', 'foruminvest'); ?>:</span><span
                                         class="value"><?= $apartments_project ?></span>
                             </p>
                         <?php endif; ?>
-                        <?php if ($parking = get_field('parkeren_project')) : ?>
+                        <?php if ($rooms = get_field('hotelkamers')) : ?>
                             <p class="detail">
-                                <span class="detail_title"><?php echo __('Parkeren', 'foruminvest'); ?>:</span><span
+                                <span class="detail_title"><?php echo __('Hotel rooms', 'foruminvest'); ?>:</span><span
+                                        class="value"><?= $rooms ?></span>
+                            </p>
+                        <?php endif; ?>
+                        <?php if ($parking = get_field('parkeerplaatsen')) : ?>
+                            <p class="detail">
+                                <span class="detail_title"><?php echo __('Parking spaces', 'foruminvest'); ?>:</span><span
                                         class="value"><?= $parking ?></span>
                             </p>
                         <?php endif; ?>
-                        <?php if ($architecten = get_field('architecten_proeject')) : ?>
+                        <?php if ($architecten = get_field('architecten')) : ?>
                             <p class="detail">
-                                <span class="detail_title"><?php echo __('Architecten', 'foruminvest'); ?>:</span><span
+                                <span class="detail_title"><?php echo __('Architects', 'foruminvest'); ?>:</span><span
                                         class="value"><?= $architecten ?></span>
                             </p>
                         <?php endif; ?>
-                        <?php if ($country = get_field('land_project')) : ?>
+                        <?php if ($country = get_field('locatie')) : ?>
                             <p class="detail mt-3">
-                                <span class="detail_title"><?php echo __('Land', 'foruminvest'); ?>:</span><span
+                                <span class="detail_title"><?php echo __('Location', 'foruminvest'); ?>:</span><span
                                         class="value"><?= $country ?></span>
                             </p>
                         <?php endif; ?>
-                        <?php if ($status = get_field('status_project')) : ?>
+                        <?php if ($status = get_field('status')) : ?>
                             <p class="detail">
                                 <span class="detail_title"><?php echo __('Status', 'foruminvest'); ?>:</span><span
                                         class="value"><?= $status ?></span>
