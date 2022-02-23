@@ -35,7 +35,7 @@ get_header();
                 while ($loop->have_posts()) :
                 $loop->the_post(); ?>
                 <div class="col-sm-12 col-lg-4 portfolio_item mb-5">
-                    <a href="<?php the_permalink(); ?>">
+                   
                         <div class="image_box award">
                             <?php echo get_the_post_thumbnail(get_the_ID(), 'post_thumbnail', array('class' => 'project_thumbnail')) ?>
                             <?= !empty($img = get_field('hover_afbeelding')) ? wp_get_attachment_image($img['id'], 'full', false, ['class' => 'project_thumbnail_hover']) : '' ?>
@@ -68,7 +68,7 @@ get_header();
                                     </g>
                                 </g>
                             </svg>
-                    </a>
+
                 </div>
             </div>
 
