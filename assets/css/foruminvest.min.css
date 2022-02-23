@@ -7760,6 +7760,12 @@ p, li, a {
 .portfolio_row .portfolio_item:nth-child(30) {
   order: 31;
 }
+.portfolio_row .portfolio_item:nth-child(31) {
+  order: 32;
+}
+.portfolio_row .portfolio_item:nth-child(32) {
+  order: 33;
+}
 
 #news {
   padding-top: 75px;
