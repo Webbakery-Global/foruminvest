@@ -104,6 +104,11 @@ get_header();
     <section id="team">
         <div class="container">
             <div class="row">
+                <div class="col-sm-12 mb-3">
+                    <?php if ($team_title = get_field('t_title')) : ?>
+                    <h3 class="subtitle brown"><?php echo esc_html($team_title); ?></h3>
+                    <?php endif; ?>
+                </div>
                 <div class="team_slider">
                     <?php
                     $team = get_field('teamleden');

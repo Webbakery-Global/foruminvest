@@ -131,9 +131,9 @@ $page_slug = $post->post_name;
                     </svg>
 
                     <ul class="languages">
-                        <li class="english"><a href="<?php echo get_site_url();?>/en/<?= $page_slug ?>">EN</a></li>
-                        <li class="italian"><a href="<?php echo get_site_url();?>/it/<?= $page_slug ?>">IT</a></li>
-                        <li class="nederlands"><a href="<?php echo get_site_url();?>/<?= $page_slug ?>">NL</a></li>
+                        <li class="nederlands"><a href="<?php echo get_site_url();?>/<?= $page_slug ?>"><span class="name">NL</span> <img class="flag" src="<?php echo get_template_directory_uri(); ?>/assets/images/nl.png" alt="Flag"></a></li>
+                        <li class="italian"><a href="<?php echo get_site_url();?>/it/<?= $page_slug ?>"><span class="name">IT</span> <img class="flag" src="<?php echo get_template_directory_uri(); ?>/assets/images/it.png" alt="Flag"></a></li>
+                        <li class="english"><a href="<?php echo get_site_url();?>/en/<?= $page_slug ?>"><span class="name">EN</span> <img class="flag" src="<?php echo get_template_directory_uri(); ?>/assets/images/en.png" alt="Flag"></a></li>
                     </ul>
                 </div>
 

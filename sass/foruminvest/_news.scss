@@ -16,10 +16,13 @@
 
     .col_right {
       .content {
-        padding: 50px 30px 75px 30px;
+        margin: 50px 75px 75px 30px;
+        overflow: hidden;
+        max-height: 175px;
 
         @include media-breakpoint-lg() {
-          padding: ratio-vw(50px) ratio-vw(30px) ratio-vw(75px) ratio-vw(30px);
+          margin: ratio-vw(50px) ratio-vw(75px) ratio-vw(75px) ratio-vw(30px);
+          max-height: ratio-vw(175px);
         }
 
         .date {
@@ -49,6 +52,7 @@
 
         .content {
           padding: 0;
+          margin: 0;
           color: $gray;
           font-size: 13px;
           font-weight: 400;
