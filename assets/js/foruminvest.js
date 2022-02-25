@@ -57,8 +57,6 @@ $(document).ready(function () {
         cssEase: 'linear',
         dots: false,
         arrows: false,
-        // prevArrow: $('.prev_portfolio_item'),
-        // nextArrow: $('.next_portfolio_item'),
     });
 
     $('.team_slider').slick({
@@ -70,8 +68,6 @@ $(document).ready(function () {
         slidesToScroll: 3,
         dots: true,
         arrows: false,
-        // prevArrow: $('.prev_portfolio_item'),
-        // nextArrow: $('.next_portfolio_item'),
         responsive: [{
             breakpoint: 1024,
             settings: {
@@ -141,9 +137,6 @@ window.onload = function () {
     })
 };
 
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     // When the user scrolls the page, execute myFunction
     window.addEventListener('scroll', myFunction);
@@ -164,41 +157,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 });
-
-
-//
-// jQuery(document).ready(function () {
-//     function resizeForm() {
-//         let width = (window.innerWidth > 0) ? window.innerWidth : document.documentElement.clientWidth;
-//         if (width < 1024) {
-//             $(document).ready(function () {
-//                 function portfolioSlider() {
-//                     $('.portfolio_slider').slick({
-//                         infinite: true,
-//                         autoplay: true,
-//                         autoplaySpeed: 5000,
-//                         pauseOnHover: false,
-//                         slidesToShow: 1,
-//                         slidesToScroll: 1,
-//                         dots: true,
-//                         arrows: true,
-//                         prevArrow: $('.prev_portfolio_item'),
-//                         nextArrow: $('.next_portfolio_item'),
-//                     });
-//                 }
-//                 portfolioSlider();
-//             });
-//
-//         } else {
-//
-//         }
-//     }
-//
-//     window.onresize = resizeForm;
-//     resizeForm();
-// });
-
-
 
 // select all accordion items
 const accItems = document.querySelectorAll(".accordion__item");

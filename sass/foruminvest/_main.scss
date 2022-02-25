@@ -339,12 +339,7 @@ p, li, a {
 }
 
 #subpage_header {
-  margin-top: 40px;
   text-align: center;
-
-  @include media-breakpoint-lg() {
-    margin-top: ratio-vw(40px);
-  }
 
   .header_img {
     width: 1441px;
@@ -631,10 +626,10 @@ p, li, a {
 }
 
 #third {
-  margin-top: 75px;
+  margin: 100px 0;
 
   @include media-breakpoint-lg() {
-    margin-top: ratio-vw(75px);
+    margin: ratio-vw(100px) 0;
   }
 }
 

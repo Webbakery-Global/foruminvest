@@ -6205,13 +6205,7 @@ p, li, a {
 }
 
 #subpage_header {
-  margin-top: 40px;
   text-align: center;
-}
-@media (max-width: 1799px) and (min-width: 1024px) {
-  #subpage_header {
-    margin-top: 2.2222222222vw;
-  }
 }
 #subpage_header .header_img {
   width: 1441px;
@@ -6483,11 +6477,11 @@ p, li, a {
 }
 
 #third {
-  margin-top: 75px;
+  margin: 100px 0;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #third {
-    margin-top: 4.1666666667vw;
+    margin: 5.5555555556vw 0;
   }
 }
 
