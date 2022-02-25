@@ -132,7 +132,7 @@ get_header();
                 <div class="col-sm-12 col-lg-6">
                     <div class="content">
                         <p class="subtitle brown text-uppercase"><?php echo __('Description', 'foruminvest'); ?></p>
-                        <?php the_content(); ?>
+                        <?php the_field('omschrijving'); ?>
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-6">
