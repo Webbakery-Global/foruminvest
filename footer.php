@@ -105,7 +105,7 @@
                     </div>
                     <div class="col-12 col-md-6 mt-4">
                         <?php if ($linkedin = get_field('linkedin', 'options')) : ?>
-                            <div class="icon_box mt-3">
+                            <div class="icon_box ">
                                 <a href="<?php echo $linkedin ?>" target="_blank">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>

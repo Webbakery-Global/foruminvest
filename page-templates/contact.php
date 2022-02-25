@@ -25,7 +25,7 @@ get_header();
                     <div class="details mb-2">
                         <p class="subtitle brown"><?php the_field('subtitle'); ?></p>
                         <p>
-                            <span class="item col-5 px-0"><?php echo __('Adress', 'foruminvest'); ?></span><span><?php the_field('adres', 'options'); ?></span>
+                            <span class="item col-5 px-0"><?php echo __('Adress', 'foruminvest'); ?></span><span class="adres"><?php the_field('adres', 'options'); ?></span>
                         </p>
                         <p>
                             <span class="item col-5 px-0"><?php echo __('E-mail address', 'foruminvest'); ?></span><span><?php the_field('emailadres', 'options'); ?></span>
