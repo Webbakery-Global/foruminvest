@@ -85,7 +85,7 @@ get_header();
 
                             <?php foreach ($project_galerij as $image) : ?>
                                 <div class="slide">
-                                    <img src="<?php echo esc_url($image['sizes']['large']); ?>"
+                                    <img src="<?php echo esc_url($image['url']); ?>"
                                          alt="<?php echo esc_attr($image['alt']); ?>"/>
                                 </div>
                             <?php endforeach; ?>
