@@ -7809,7 +7809,8 @@ p, li, a {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 320px;
+  height: 100%;
+  max-height: 350px;
 }
 #news .news_post .col_right .content {
   margin: 50px 75px 75px 30px;

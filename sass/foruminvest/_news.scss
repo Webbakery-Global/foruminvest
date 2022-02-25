@@ -9,8 +9,8 @@
       .thumbnail {
         width: 100%;
         object-fit: cover;
-        height: 320px;
-
+        height: 100%;
+        max-height: 350px;
       }
     }
 
@@ -39,7 +39,7 @@
           color: $blue;
           margin-bottom: 15px;
           transition: all .3s ease-in-out;
-          
+
         }
 
         .arrow {

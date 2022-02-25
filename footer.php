@@ -80,10 +80,30 @@
             <div class="col-sm-12 col-lg-4 information mt-5 mt-lg-0">
                 <div class="row">
                     <div class="col-12 col-md-6">
+                        <div class="icon_box ">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:<?php the_field('telefoonnummer', 'options'); ?>">
+                                <span><?php the_field('telefoonnummer', 'options'); ?></span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="icon_box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:<?php the_field('emailadres', 'options'); ?>">
+                                <span><?php the_field('emailadres', 'options'); ?></span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6 mt-4">
                         <div class="icon_box">
                             <i class="fa-solid fa-location-dot"></i>
                             <span><?php the_field('adres', 'options'); ?></span>
                         </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-4">
                         <?php if ($linkedin = get_field('linkedin', 'options')) : ?>
                             <div class="icon_box mt-3">
                                 <a href="<?php echo $linkedin ?>" target="_blank">
@@ -91,20 +111,6 @@
                                 </a>
                             </div>
                         <?php endif; ?>
-                    </div>
-                    <div class="col-12 col-md-6 mt-3 mt-lg-0">
-                        <div class="icon_box">
-                            <i class="fa-solid fa-envelope"></i>
-                            <a href="mailto:<?php the_field('emailadres', 'options'); ?>">
-                                <span><?php the_field('emailadres', 'options'); ?></span>
-                            </a>
-                        </div>
-                        <div class="icon_box mt-3">
-                            <a href="tel:<?php the_field('telefoonnummer', 'options'); ?>">
-                                <i class="fa-solid fa-phone"></i>
-                                <span><?php the_field('telefoonnummer', 'options'); ?></span>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
