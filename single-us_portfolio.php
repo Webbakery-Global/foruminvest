@@ -93,33 +93,38 @@ get_header();
                         <?php endif; ?>
                     </div>
 
-                    <div class="arrows">
-                        <div class="prev_slide">
-                            <svg width="15px" height="23px" viewBox="0 0 15 23" version="1.1"
-                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g id="Forum-invest-project-detail" transform="translate(-117.000000, -1455.000000)"
-                                       fill="#CD8F80" fill-rule="nonzero">
-                                        <polygon id="&gt;"
-                                                 transform="translate(124.500000, 1466.500000) scale(-1, 1) translate(-124.500000, -1466.500000) "
-                                                 points="117 1478 132 1468.7193 132 1464.32554 117 1455 117 1459.03509 129.50457 1466.52242 117 1473.96491"></polygon>
+
+                    <?php if ($project_galerij = get_field('project_galerij')) : ?>
+                        <div class="arrows">
+                            <div class="prev_slide">
+                                <svg width="15px" height="23px" viewBox="0 0 15 23" version="1.1"
+                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Forum-invest-project-detail"
+                                           transform="translate(-117.000000, -1455.000000)"
+                                           fill="#CD8F80" fill-rule="nonzero">
+                                            <polygon id="&gt;"
+                                                     transform="translate(124.500000, 1466.500000) scale(-1, 1) translate(-124.500000, -1466.500000) "
+                                                     points="117 1478 132 1468.7193 132 1464.32554 117 1455 117 1459.03509 129.50457 1466.52242 117 1473.96491"></polygon>
+                                        </g>
                                     </g>
-                                </g>
-                            </svg>
-                        </div>
-                        <div class="next_slide">
-                            <svg width="15px" height="23px" viewBox="0 0 15 23" version="1.1"
-                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g id="Forum-invest-project-detail" transform="translate(-159.000000, -1455.000000)"
-                                       fill="#CD8F80" fill-rule="nonzero">
-                                        <polygon id="&gt;"
-                                                 points="159 1478 174 1468.7193 174 1464.32554 159 1455 159 1459.03509 171.50457 1466.52242 159 1473.96491"></polygon>
+                                </svg>
+                            </div>
+                            <div class="next_slide">
+                                <svg width="15px" height="23px" viewBox="0 0 15 23" version="1.1"
+                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Forum-invest-project-detail"
+                                           transform="translate(-159.000000, -1455.000000)"
+                                           fill="#CD8F80" fill-rule="nonzero">
+                                            <polygon id="&gt;"
+                                                     points="159 1478 174 1468.7193 174 1464.32554 159 1455 159 1459.03509 171.50457 1466.52242 159 1473.96491"></polygon>
+                                        </g>
                                     </g>
-                                </g>
-                            </svg>
+                                </svg>
+                            </div>
                         </div>
-                    </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>

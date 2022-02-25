@@ -230,9 +230,16 @@
     margin: 35px 0 0 75px;
     display: flex;
 
-
     @include media-breakpoint-lg() {
       margin: ratio-vw(35px) 0 0 ratio-vw(75px);
+    }
+
+    .slick-hidden {
+      visibility: hidden;
+    }
+
+    .slick-disabled {
+      opacity: 0.5;
     }
 
     .prev_slide {
