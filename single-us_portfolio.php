@@ -9,7 +9,7 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-6">
-                    <?php echo get_the_post_thumbnail(get_the_ID(), 'post_thumbnail', array('class' => 'image')) ?>
+                    <?php echo get_the_post_thumbnail(get_the_ID(), 'large', array('class' => 'image')) ?>
                 </div>
                 <div class="col-sm-12 col-lg-6 details">
                     <h1 class="title blue"><?php the_title(); ?></h1>

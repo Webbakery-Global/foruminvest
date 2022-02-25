@@ -84,7 +84,7 @@
 }
 
 #single_news_header {
-  height: 440px;
+  height: 700px;
   background-size: cover;
   background-position: center;
   width: 1441px;
@@ -92,7 +92,7 @@
   max-width: 100%;
 
   @include media-breakpoint-lg() {
-    height: ratio-vw(440px);
+    height: ratio-vw(700px);
     margin: ratio-vw(75px) auto 0 auto;
   }
 }
