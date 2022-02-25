@@ -6484,6 +6484,20 @@ p, li, a {
     margin: 5.5555555556vw 0;
   }
 }
+#third .title {
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 41px;
+  margin: 15px 0 20px 0;
+}
+@media (max-width: 1799px) and (min-width: 1024px) {
+  #third .title {
+    font-size: 1.5555555556vw;
+    line-height: 2.2777777778vw;
+    margin: 0.8333333333vw 0 1.1111111111vw 0;
+  }
+}
 
 #team {
   margin-top: 75px;

@@ -631,6 +631,20 @@ p, li, a {
   @include media-breakpoint-lg() {
     margin: ratio-vw(100px) 0;
   }
+
+  .title {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 41px;
+    margin: 15px 0 20px 0;
+
+    @include media-breakpoint-lg() {
+      font-size: ratio-vw(28px);
+      line-height: ratio-vw(41px);
+      margin: ratio-vw(15px) 0 ratio-vw(20px) 0;
+    }
+  }
 }
 
 
