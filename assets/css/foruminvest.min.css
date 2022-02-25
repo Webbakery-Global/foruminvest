@@ -7835,10 +7835,6 @@ p, li, a {
   color: #29346C;
   margin-bottom: 15px;
   transition: all 0.3s ease-in-out;
-  text-transform: lowercase;
-}
-#news .news_post .col_right .content .title::first-letter {
-  text-transform: uppercase;
 }
 #news .news_post .col_right .content .arrow {
   position: absolute;

@@ -39,11 +39,7 @@
           color: $blue;
           margin-bottom: 15px;
           transition: all .3s ease-in-out;
-          text-transform: lowercase;
-
-          &::first-letter {
-            text-transform: uppercase;
-          }
+          
         }
 
         .arrow {

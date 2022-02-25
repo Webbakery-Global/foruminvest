@@ -62,7 +62,7 @@ $(document).ready(function () {
     });
 
     $('.team_slider').slick({
-        infinite: true,
+        infinite: false,
         autoplay: true,
         autoplaySpeed: 5000,
         pauseOnHover: false,
@@ -89,7 +89,7 @@ $(document).ready(function () {
     });
 
     $('.project_slider').slick({
-        infinite: true,
+        infinite: false,
         autoplay: true,
         autoplaySpeed: 5000,
         pauseOnHover: false,
