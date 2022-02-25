@@ -3,12 +3,11 @@
   background-size: cover;
   background-position: center;
   width: 1441px;
-  margin: 75px auto 0 auto;
+  margin: 0 auto;
 
   @include media-breakpoint-lg() {
     height: ratio-vw(440px);
     width: ratio-vw(1441px);
-    margin: ratio-vw(75px) auto 0 auto;
   }
 
 }

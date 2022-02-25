@@ -84,12 +84,11 @@
   background-size: cover;
   background-position: center;
   width: 1441px;
-  margin: 75px auto 0 auto;
+  margin: 0 auto;
   max-width: 100%;
 
   @include media-breakpoint-lg() {
     height: ratio-vw(700px);
-    margin: ratio-vw(75px) auto 0 auto;
   }
 }
 

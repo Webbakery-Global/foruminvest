@@ -7865,13 +7865,12 @@ p, li, a {
   background-size: cover;
   background-position: center;
   width: 1441px;
-  margin: 75px auto 0 auto;
+  margin: 0 auto;
   max-width: 100%;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #single_news_header {
     height: 38.8888888889vw;
-    margin: 4.1666666667vw auto 0 auto;
   }
 }
 
@@ -7907,13 +7906,12 @@ p, li, a {
   background-size: cover;
   background-position: center;
   width: 1441px;
-  margin: 75px auto 0 auto;
+  margin: 0 auto;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #single_vacature_header {
     height: 24.4444444444vw;
     width: 80.0555555556vw;
-    margin: 4.1666666667vw auto 0 auto;
   }
 }
 
