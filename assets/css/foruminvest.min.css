@@ -6935,6 +6935,10 @@ p, li, a {
     font-size: 30px;
     line-height: 36px;
   }
+
+  #third {
+    margin: 0 0 50px 0;
+  }
 }
 #wrapper-navbar {
   position: fixed;
@@ -25427,5 +25431,9 @@ footer #footer_menu ul li.current-menu-item .nav-link::before {
   #vacature_content .title {
     font-size: 30px;
     line-height: 36px;
+  }
+
+  #third {
+    margin: 0 0 50px 0;
   }
 }

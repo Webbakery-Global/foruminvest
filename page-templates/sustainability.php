@@ -106,7 +106,7 @@ get_header();
 
                 </div>
 
-                <div class="col-sm-12 col-lg-6">
+                <div class="col-sm-12 col-lg-6 mt-5 mt-lg-0">
                         <?php if ($s_subtitle = get_field('t_subtitle')) : ?>
                             <p class="subtitle brown"><?php echo esc_html($s_subtitle); ?></p>
                         <?php endif; ?>
