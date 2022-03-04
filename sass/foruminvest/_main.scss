@@ -626,10 +626,10 @@ p, li, a {
 }
 
 #third {
-  margin: 100px 0 150px 0;
+  margin: 125px 0;
 
   @include media-breakpoint-lg() {
-    margin: ratio-vw(100px) 0 ratio-vw(150px) 0;
+    margin: ratio-vw(125px) 0;
   }
 
   .title {
