@@ -3,7 +3,6 @@ import AOS from 'aos';
 AOS.init({
     once: true,
     duration: 1500,
-    disable: 'mobile'
 })
 
 $(document).ready(function () {
