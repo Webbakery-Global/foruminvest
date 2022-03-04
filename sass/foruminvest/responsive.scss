@@ -1,12 +1,15 @@
-@media only screen and (min-width: 1025px) {
-  #domain_list {
-    min-height: 49vh;
-  }
+@media screen and (max-width: 1250px) and (min-width: 1025px) {
+  #homepage_header {
+    .header_slider {
+      img {
+        height: calc(87vh - 110px);
 
-  .floating_contact {
-    display: none;
+        @include media-breakpoint-lg() {
+          height: calc(87vh - 110px);
+        }
+      }
+    }
   }
-
 }
 
 @media only screen and (max-width: 1025px) {

@@ -1,3 +1,11 @@
+import AOS from 'aos';
+
+AOS.init({
+    once: true,
+    duration: 1500,
+    disable: 'mobile'
+})
+
 $(document).ready(function () {
     $(".hamburger").click(function () {
         $(".hamburgerTop, .hamburgerMiddle, .hamburgerBottom").toggleClass("open");
@@ -58,6 +66,7 @@ $(document).ready(function () {
         dots: false,
         arrows: false,
     });
+
 
     $('.team_slider').slick({
         infinite: false,

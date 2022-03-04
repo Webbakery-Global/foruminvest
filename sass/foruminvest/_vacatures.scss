@@ -29,7 +29,7 @@
     letter-spacing: 0;
     line-height: 52px;
     color: $blue;
-    text-transform: lowercase;
+    text-transform: inherit;
 
     &::first-letter {
       text-transform: uppercase;

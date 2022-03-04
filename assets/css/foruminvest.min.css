@@ -6267,11 +6267,11 @@ p, li, a {
 }
 
 #about {
-  margin-top: 90px;
+  margin-top: 35px;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #about {
-    margin-top: 5vw;
+    margin-top: 1.9444444444vw;
   }
 }
 #about .col_right strong {
@@ -6477,11 +6477,11 @@ p, li, a {
 }
 
 #third {
-  margin: 100px 0;
+  margin: 100px 0 150px 0;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #third {
-    margin: 5.5555555556vw 0;
+    margin: 5.5555555556vw 0 8.3333333333vw 0;
   }
 }
 #third .title {
@@ -6631,13 +6631,14 @@ p, li, a {
   color: #fff;
 }
 
-@media only screen and (min-width: 1025px) {
-  #domain_list {
-    min-height: 49vh;
+@media screen and (max-width: 1250px) and (min-width: 1025px) {
+  #homepage_header .header_slider img {
+    height: calc(87vh - 110px);
   }
-
-  .floating_contact {
-    display: none;
+}
+@media screen and (max-width: 1250px) and (min-width: 1025px) and (max-width: 1799px) and (min-width: 1024px) {
+  #homepage_header .header_slider img {
+    height: calc(87vh - 110px);
   }
 }
 @media only screen and (max-width: 1025px) {
@@ -7822,6 +7823,7 @@ p, li, a {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
+  min-height: 350px;
   max-height: 350px;
 }
 #news .news_post .col_right .content {
@@ -7945,7 +7947,7 @@ p, li, a {
   letter-spacing: 0;
   line-height: 52px;
   color: #29346C;
-  text-transform: lowercase;
+  text-transform: inherit;
 }
 #vacature_content .title::first-letter {
   text-transform: uppercase;
@@ -25126,13 +25128,14 @@ footer #footer_menu ul li.current-menu-item .nav-link::before {
   font-weight: 900;
 }
 
-@media only screen and (min-width: 1025px) {
-  #domain_list {
-    min-height: 49vh;
+@media screen and (max-width: 1250px) and (min-width: 1025px) {
+  #homepage_header .header_slider img {
+    height: calc(87vh - 110px);
   }
-
-  .floating_contact {
-    display: none;
+}
+@media screen and (max-width: 1250px) and (min-width: 1025px) and (max-width: 1799px) and (min-width: 1024px) {
+  #homepage_header .header_slider img {
+    height: calc(87vh - 110px);
   }
 }
 @media only screen and (max-width: 1025px) {

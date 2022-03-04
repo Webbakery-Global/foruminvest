@@ -99,7 +99,7 @@ get_header();
         </div>
     </section>
 
-    <section id="team">
+    <section id="team" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 mb-3">
