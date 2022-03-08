@@ -6477,11 +6477,11 @@ p, li, a {
 }
 
 #third {
-  margin: 125px 0;
+  margin: 125px 0 150px 0;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #third {
-    margin: 6.9444444444vw 0;
+    margin: 6.9444444444vw 0 8.3333333333vw 0;
   }
 }
 #third .title {
