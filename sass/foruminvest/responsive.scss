@@ -2,10 +2,10 @@
   #homepage_header {
     .header_slider {
       img {
-        height: calc(86vh - 110px);
+        height: calc(87vh - 110px);
 
         @include media-breakpoint-lg() {
-          height: calc(86vh - 110px);
+          height: calc(87vh - 110px);
         }
       }
     }
