@@ -6631,12 +6631,12 @@ p, li, a {
   color: #fff;
 }
 
-@media screen and (max-width: 1367px) and (min-width: 1024px) {
+@media screen and (max-width: 1367px) and (min-width: 1200px) {
   #homepage_header .header_slider img {
     height: calc(86vh - 110px);
   }
 }
-@media screen and (max-width: 1367px) and (min-width: 1024px) and (max-width: 1799px) and (min-width: 1024px) {
+@media screen and (max-width: 1367px) and (min-width: 1200px) and (max-width: 1799px) and (min-width: 1024px) {
   #homepage_header .header_slider img {
     height: calc(86vh - 110px);
   }
@@ -25129,12 +25129,12 @@ footer #footer_menu ul li.current-menu-item .nav-link::before {
   font-weight: 900;
 }
 
-@media screen and (max-width: 1367px) and (min-width: 1024px) {
+@media screen and (max-width: 1367px) and (min-width: 1200px) {
   #homepage_header .header_slider img {
     height: calc(86vh - 110px);
   }
 }
-@media screen and (max-width: 1367px) and (min-width: 1024px) and (max-width: 1799px) and (min-width: 1024px) {
+@media screen and (max-width: 1367px) and (min-width: 1200px) and (max-width: 1799px) and (min-width: 1024px) {
   #homepage_header .header_slider img {
     height: calc(86vh - 110px);
   }
