@@ -67,33 +67,6 @@ $(document).ready(function () {
     });
 
 
-    $('.team_slider').slick({
-        infinite: false,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: false,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        dots: true,
-        arrows: false,
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-            }
-        },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    dots: false,
-                }
-            },
-        ]
-    });
-
     $('.project_slider').slick({
         infinite: false,
         autoplay: true,
