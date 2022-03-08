@@ -36,7 +36,7 @@ get_header();
                             <div class="col-sm-12 col-lg-5 col_left">
                                 <?php echo get_the_post_thumbnail(get_the_ID(), 'post_thumbnail', array('class' => 'thumbnail')) ?>
                             </div>
-                            <div class="col-sm-12 col-lg-7 col_right">
+                            <div class="col-sm-12 col-lg-7 col_right d-flex align-items-center">
                                 <div class="content">
                                     <p class="date"><?php echo get_the_date('d-m-Y'); ?></p>
                                     <h2 class="title"><?php the_title(); ?></h2>
