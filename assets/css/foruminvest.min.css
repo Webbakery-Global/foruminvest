@@ -6631,17 +6631,17 @@ p, li, a {
   color: #fff;
 }
 
-@media screen and (max-width: 1250px) and (min-width: 1025px) {
+@media screen and (max-width: 1367px) and (min-width: 1024px) {
   #homepage_header .header_slider img {
-    height: calc(83vh - 110px);
+    height: calc(86vh - 110px);
   }
 }
-@media screen and (max-width: 1250px) and (min-width: 1025px) and (max-width: 1799px) and (min-width: 1024px) {
+@media screen and (max-width: 1367px) and (min-width: 1024px) and (max-width: 1799px) and (min-width: 1024px) {
   #homepage_header .header_slider img {
-    height: calc(83vh - 110px);
+    height: calc(86vh - 110px);
   }
 }
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1024px) {
   body {
     max-width: 100%;
     position: relative;
@@ -25129,17 +25129,17 @@ footer #footer_menu ul li.current-menu-item .nav-link::before {
   font-weight: 900;
 }
 
-@media screen and (max-width: 1250px) and (min-width: 1025px) {
+@media screen and (max-width: 1367px) and (min-width: 1024px) {
   #homepage_header .header_slider img {
-    height: calc(83vh - 110px);
+    height: calc(86vh - 110px);
   }
 }
-@media screen and (max-width: 1250px) and (min-width: 1025px) and (max-width: 1799px) and (min-width: 1024px) {
+@media screen and (max-width: 1367px) and (min-width: 1024px) and (max-width: 1799px) and (min-width: 1024px) {
   #homepage_header .header_slider img {
-    height: calc(83vh - 110px);
+    height: calc(86vh - 110px);
   }
 }
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1024px) {
   body {
     max-width: 100%;
     position: relative;
