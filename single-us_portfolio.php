@@ -60,7 +60,7 @@ get_header();
                                         class="value"><?= $country ?></span>
                             </p>
                         <?php endif; ?>
-                        <?php if ($status = get_field('status')) : ?>
+                        <?php if ($status = get_field('status_text')) : ?>
                             <p class="detail">
                                 <span class="detail_title"><?php echo __('Status', 'foruminvest'); ?>:</span><span
                                         class="value"><?= $status ?></span>
