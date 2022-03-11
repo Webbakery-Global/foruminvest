@@ -195,7 +195,7 @@
         line-height: 26px;
         display: inline-block;
         max-width: 535px;
-        width: 100%;
+        width: auto;
 
         @include media-breakpoint-lg() {
           max-width: ratio-vw(535px);

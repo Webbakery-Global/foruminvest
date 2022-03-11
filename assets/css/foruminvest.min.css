@@ -7592,7 +7592,7 @@ p, li, a {
   line-height: 26px;
   display: inline-block;
   max-width: 535px;
-  width: 100%;
+  width: auto;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #project_header .details .detail .value {
