@@ -68,7 +68,7 @@ get_header();
                                 </p>
                             <?php endif; ?>
                             <?php if ($website = get_field('website')) : ?>
-                                <a class="btn btn_trans_blue website" href="<?= $website ?>" target="_blank"><?php echo  __('Visit website', 'foruminvest'); ?></a>
+                                <a class="btn btn_trans_blue website mt-3" href="<?= $website ?>" target="_blank"><?php echo  __('Visit website', 'foruminvest'); ?></a>
                             <?php endif; ?>
 
                         </div>
