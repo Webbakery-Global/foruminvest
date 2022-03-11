@@ -7595,12 +7595,12 @@ p, li, a {
   letter-spacing: 0;
   line-height: 26px;
   display: inline-block;
-  max-width: 535px;
+  max-width: 400px;
   width: auto;
 }
 @media (max-width: 1799px) and (min-width: 1024px) {
   #project_header .details .detail .value {
-    max-width: 29.7222222222vw;
+    max-width: 22.2222222222vw;
   }
 }
 

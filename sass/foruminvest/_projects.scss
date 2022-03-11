@@ -194,11 +194,11 @@
         letter-spacing: 0;
         line-height: 26px;
         display: inline-block;
-        max-width: 535px;
+        max-width: 400px;
         width: auto;
 
         @include media-breakpoint-lg() {
-          max-width: ratio-vw(535px);
+          max-width: ratio-vw(400px);
         }
       }
     }
