@@ -12,63 +12,68 @@ get_header();
                     <?php echo get_the_post_thumbnail(get_the_ID(), 'large', array('class' => 'image')) ?>
                 </div>
                 <div class="col-sm-12 col-lg-6 details">
-                    <h1 class="title blue"><?php the_title(); ?></h1>
-                    <p class="title blue"><?php the_field('stad_project'); ?></p>
+                    <div class="detail_info">
+                        <h1 class="title blue"><?php the_title(); ?></h1>
+                        <p class="title blue"><?php the_field('stad_project'); ?></p>
 
-                    <p class="project_title"><?php echo __('Project details', 'foruminvest'); ?></p>
+                        <p class="project_title"><?php echo __('Project details', 'foruminvest'); ?></p>
 
-                    <div class="info">
-                        <?php if ($bvo = get_field('bvo')) : ?>
-                            <p class="detail">
-                                <span class="detail_title"><?php echo __('GLA', 'foruminvest'); ?>:</span><span
-                                        class="value"><?= $bvo ?></span>
-                            </p>
-                        <?php endif; ?>
-                        <?php if ($apartments = get_field('apartments')) : ?>
-                            <p class="detail">
-                                <span class="detail_title"><?php echo __('Apartements', 'foruminvest'); ?>:</span><span
-                                        class="value"><?= $apartments ?></span>
-                            </p>
-                        <?php endif; ?>
-                        <?php if ($apartments_project = get_field('grondgebonden_woningen')) : ?>
-                            <p class="detail">
-                                <span class="detail_title"><?php echo __('Residences', 'foruminvest'); ?>:</span><span
-                                        class="value"><?= $apartments_project ?></span>
-                            </p>
-                        <?php endif; ?>
-                        <?php if ($rooms = get_field('hotelkamers')) : ?>
-                            <p class="detail">
-                                <span class="detail_title"><?php echo __('Hotel rooms', 'foruminvest'); ?>:</span><span
-                                        class="value"><?= $rooms ?></span>
-                            </p>
-                        <?php endif; ?>
-                        <?php if ($parking = get_field('parkeerplaatsen')) : ?>
-                            <p class="detail">
-                                <span class="detail_title"><?php echo __('Parking spaces', 'foruminvest'); ?>:</span><span
-                                        class="value"><?= $parking ?></span>
-                            </p>
-                        <?php endif; ?>
-                        <?php if ($architecten = get_field('architecten')) : ?>
-                            <p class="detail">
-                                <span class="detail_title"><?php echo __('Architects', 'foruminvest'); ?>:</span><span
-                                        class="value"><?= $architecten ?></span>
-                            </p>
-                        <?php endif; ?>
-                        <?php if ($country = get_field('locatie')) : ?>
-                            <p class="detail mt-3">
-                                <span class="detail_title"><?php echo __('Location', 'foruminvest'); ?>:</span><span
-                                        class="value"><?= $country ?></span>
-                            </p>
-                        <?php endif; ?>
-                        <?php if ($status = get_field('status_text')) : ?>
-                            <p class="detail">
-                                <span class="detail_title"><?php echo __('Status', 'foruminvest'); ?>:</span><span
-                                        class="value"><?= $status ?></span>
-                            </p>
-                        <?php endif; ?>
+                        <div class="info">
+                            <?php if ($bvo = get_field('bvo')) : ?>
+                                <p class="detail">
+                                    <span class="detail_title"><?php echo __('GLA', 'foruminvest'); ?>:</span><span
+                                            class="value"><?= $bvo ?></span>
+                                </p>
+                            <?php endif; ?>
+                            <?php if ($apartments = get_field('apartments')) : ?>
+                                <p class="detail">
+                                    <span class="detail_title"><?php echo __('Apartments', 'foruminvest'); ?>:</span><span
+                                            class="value"><?= $apartments ?></span>
+                                </p>
+                            <?php endif; ?>
+                            <?php if ($apartments_project = get_field('grondgebonden_woningen')) : ?>
+                                <p class="detail">
+                                    <span class="detail_title"><?php echo __('Residences', 'foruminvest'); ?>:</span><span
+                                            class="value"><?= $apartments_project ?></span>
+                                </p>
+                            <?php endif; ?>
+                            <?php if ($rooms = get_field('hotelkamers')) : ?>
+                                <p class="detail">
+                                    <span class="detail_title"><?php echo __('Hotel rooms', 'foruminvest'); ?>:</span><span
+                                            class="value"><?= $rooms ?></span>
+                                </p>
+                            <?php endif; ?>
+                            <?php if ($parking = get_field('parkeerplaatsen')) : ?>
+                                <p class="detail">
+                                    <span class="detail_title"><?php echo __('Parking spaces', 'foruminvest'); ?>:</span><span
+                                            class="value"><?= $parking ?></span>
+                                </p>
+                            <?php endif; ?>
+                            <?php if ($architecten = get_field('architecten')) : ?>
+                                <p class="detail">
+                                    <span class="detail_title"><?php echo __('Architects', 'foruminvest'); ?>:</span><span
+                                            class="value"><?= $architecten ?></span>
+                                </p>
+                            <?php endif; ?>
+                            <?php if ($country = get_field('locatie')) : ?>
+                                <p class="detail mt-3">
+                                    <span class="detail_title"><?php echo __('Location', 'foruminvest'); ?>:</span><span
+                                            class="value"><?= $country ?></span>
+                                </p>
+                            <?php endif; ?>
+                            <?php if ($status = get_field('status_text')) : ?>
+                                <p class="detail">
+                                    <span class="detail_title"><?php echo __('Status', 'foruminvest'); ?>:</span><span
+                                            class="value"><?= $status ?></span>
+                                </p>
+                            <?php endif; ?>
+                            <?php if ($website = get_field('website')) : ?>
+                                <a class="btn btn_trans_blue website" href="<?= $website ?>"><?php echo  __('Visit website', 'foruminvest'); ?></a>
+                            <?php endif; ?>
+
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>

@@ -17,15 +17,20 @@
         font-size: ratio-vw(16px);
         line-height: ratio-vw(26px);
     }
-}
 
-.btn_trans_blue {
-    border: 2px solid $blue;
-    color: $blue;
-    background: $trans;
+    &.btn_trans_blue {
+        border: 2px solid $blue;
+        color: $blue;
+        background: $trans;
 
-    &:hover {
-        background: $blue;
-        color: $white;
+        &:hover {
+            background: $blue;
+            color: $white;
+        }
+    }
+
+    &.website {
+        padding: 10px 25px;
     }
 }
+

@@ -6620,15 +6620,17 @@ p, li, a {
     line-height: 1.4444444444vw;
   }
 }
-
-.btn_trans_blue {
+.btn.btn_trans_blue {
   border: 2px solid #29346C;
   color: #29346C;
   background: transparent;
 }
-.btn_trans_blue:hover {
+.btn.btn_trans_blue:hover {
   background: #29346C;
   color: #fff;
+}
+.btn.website {
+  padding: 10px 25px;
 }
 
 @media screen and (max-width: 1367px) and (min-width: 1200px) {
@@ -7551,9 +7553,10 @@ p, li, a {
 }
 #project_header .details {
   padding-left: 100px;
+  display: flex;
+  align-items: center;
 }
 #project_header .details .title {
-  margin-top: 40px;
   margin-bottom: 0;
 }
 #project_header .details .title:nth-child(2) {
@@ -7571,6 +7574,7 @@ p, li, a {
 }
 #project_header .details .detail {
   margin-bottom: 0;
+  display: flex;
 }
 #project_header .details .detail .detail_title {
   font-size: 13px;
@@ -7586,7 +7590,8 @@ p, li, a {
   font-weight: 400;
   letter-spacing: 0;
   line-height: 26px;
-  text-transform: capitalize;
+  display: inline-block;
+  max-width: 535px;
 }
 
 #project_slider {
