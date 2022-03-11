@@ -443,4 +443,14 @@
   #third {
     margin: 0 0 50px 0;
   }
+
+  #project_header {
+    .details {
+      .detail {
+        .value {
+          max-width: 200px;
+        }
+      }
+    }
+  }
 }

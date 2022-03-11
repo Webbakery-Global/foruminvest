@@ -6956,6 +6956,10 @@ p, li, a {
   #third {
     margin: 0 0 50px 0;
   }
+
+  #project_header .details .detail .value {
+    max-width: 200px;
+  }
 }
 #wrapper-navbar {
   position: fixed;
@@ -25462,5 +25466,9 @@ footer #footer_menu ul li.current-menu-item .nav-link::before {
 
   #third {
     margin: 0 0 50px 0;
+  }
+
+  #project_header .details .detail .value {
+    max-width: 200px;
   }
 }
